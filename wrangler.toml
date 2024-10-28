@@ -1,4 +1,4 @@
-name = "Amica Seon"
+name = "amica-seon"
 compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compact"]
 pages_build_output_dir = ".vercel/output/static"
