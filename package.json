@@ -2,10 +2,6 @@
   "name": "seon",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "yarn@1.22.19",
-  "engines": {
-    "node": ">=20.12.0"
-  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -40,8 +36,7 @@
     "typescript": "^5",
     "wrangler": "^3.83.0"
   },
-  "resolutions": {
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+  "peerDependencies": {
+    "vercel": ">=32.0.0"
   }
 }
